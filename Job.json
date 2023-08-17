@@ -1,0 +1,75 @@
+{
+	"job_structure": {
+		"meta": {
+			"layer": 7000,
+			"calibration_on": [
+				{
+					"page": 0
+				},
+				{
+					"page": 100
+				}
+			],
+			"engrave_types": {
+				"e1": {
+					"comment": "Text zu diesem Layer",
+					"target": 100
+				},
+				"e2": {
+					"comment": "Text zu diesem Layer",
+					"target": 200
+				},
+				"e3": {
+					"comment": "Text zu diesem Layer",
+					"target": 300
+				}
+			},
+			"support_types": {
+				"s1": {
+					"comment": "Text zu diesem Layer",
+					"target": 0
+				},
+				"s2": {
+					"comment": "Text zu diesem Layer",
+					"target": 0
+				}
+			},
+			"cut_types": {
+				"c1": {
+					"comment": "Text zu diesem Layer",
+					"target": 0
+				},
+				"c2": {
+					"comment": "Text zu diesem Layer",
+					"target": 0
+				}
+			}
+		},
+		"layer": {
+			"0": {
+				"page": 0,
+				"type": "e1"
+			},
+			"1": {
+				"page": 0,
+				"type": "e1"
+			},
+			"2": {
+				"page": 0,
+				"type": "s1"
+			},
+			"3": {
+				"page": 1,
+				"type": "e2"
+			},
+			"4": {
+				"page": 1,
+				"type": "s2"
+			},
+			"5666": {
+				"page": 700,
+				"type": "s2"
+			}
+		}
+	}
+}
